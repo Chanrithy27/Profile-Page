@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="page">
+        <div class="nav-bar">
+            <h1 id="title" class="nav-section">Profile</h1>
+            <div class="nav-group">
+                <p class="nav-section">Home</p>
+                <p class="nav-section" id="active"><a id="active-link" href=index.html>My Profile</a></p>
+                <p class="nav-section">Find Connections</p>
+            </div>
+            <input type="submit" value="Sign Out">
+        </div>
+        <div class="container-left">
+            <div class="user-card">
+                <div class="card-header">
+                    <img id="jane" src="images/jane-m.jpg" alt="Jane in a blue hoodie ">
+                </div>
+                <div class="card-body">
+                    <h1>Jane Doe</h1>
+                    <h2><img id="mapPing" src="icons/map-marker.png" alt="location-ping">Seattle</h2>
+                    <p>Developer | Engineer | Problem Solver <br>
+                    Master of shadows and the Internet!</p>
+                    <p><a href="#"><img id="gearIcon" src="icons/gear.png" alt="gear icon"> edit profile</a></p>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="edCard-top">
+                    <h2>Education</h2>
+                </div>
+                <div class="edCard-main">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h4>Dec 2019 - Mar 2020</h4>
+                    <p>Triple black belt in Python MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="connection-request">
+                <div class="cr-header">
+                    <p id="num2">2</p>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div class="cr-body">
+                    <div class="row">
+                        <img class="pfp" src="images/todd-s.jpg" alt="Todd">
+                        <h3 class="name">Todd E</h3>
+                        <div class="decision">
+                            <img class="icons" src="icons/accept-circle.png" alt="accept">
+                            <img class="icons" src="icons/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img class="pfp" src="images/phil-s.jpg" alt="Phil">
+                        <h3 class="name">Phil K</h3>
+                        <div class="decision">
+                            <img class="icons" src="icons/accept-circle.png" alt="accept">
+                            <img class="icons" src="icons/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="c-header">
+                    <p id="num500">500+</p>
+                    <h2>Your Connections</h2>
+                </div>
+                <div class="c-body">
+                    <div class="c-row">
+                        <img class="c-pfp" src="images/adrien-s.jpg" alt="Adrien">
+                        <h3 class="name">Adrien D</h3>
+                    </div>
+                    <div class="c-row">
+                        <img class="c-pfp" src="images/anne-s.jpg" alt="Anne">
+                        <h3 class="name">Anne J</h3>
+                    </div>
+                    <div class="c-row">
+                        <img class="c-pfp" src="images/alayne-s.jpg" alt="Alayne">
+                        <h3 class="name">Alayne T</h3>
+                    </div>
+                    <div class="c-row">
+                        <img class="c-pfp" src="images/arry-s.jpg" alt="Arry">
+                        <h3 class="name">Arry Y</h3>
+                    </div>
+                </div>
+                <div class="c-footer">
+                    <p> <a href="#">View More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
